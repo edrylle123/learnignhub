@@ -1,0 +1,1 @@
+SELECT * FROM elcdb.elc_system;
