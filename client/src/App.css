@@ -153,3 +153,14 @@ button:hover span {
   padding: 0;
   font-family: 'Courier New', Courier, monospace;
 } */
+
+.button-disabled {
+  background-color: #d3d3d3; /* Light grey for disabled button */
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.button-enabled {
+  background-color: #007bff; /* Primary color */
+  cursor: pointer;
+}

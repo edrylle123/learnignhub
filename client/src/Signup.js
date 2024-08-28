@@ -156,3 +156,72 @@ function Signup() {
 }
 
 export default Signup;
+
+
+// import React, { useState } from 'react';
+// import "./admin.css";
+// import { Link } from "react-router-dom";
+// import { Card } from "./Components/Card";
+// import image1 from "./Components/one.PNG";
+// import image2 from "./Components/NUMBERING/2.png";
+// import image3 from "./Components/NUMBERING/3.png";
+// import image4 from "./Components/NUMBERING/4.png";
+// import image5 from "./Components/NUMBERING/5.png";
+// import image6 from "./Components/NUMBERING/6.png";
+// import image7 from "./Components/NUMBERING/7.png";
+// import image8 from "./Components/NUMBERING/8.png";
+// import image9 from "./Components/NUMBERING/9.png";
+// import image10 from "./Components/NUMBERING/10.png";
+// import image11 from "./Components/NUMBERING/11.png";
+// import image12 from "./Components/NUMBERING/12.png";
+// import image13 from "./Components/NUMBERING/13.png";
+// import image14 from "./Components/NUMBERING/14.png";
+// import image15 from "./Components/NUMBERING/15.png";
+// import image16 from "./Components/NUMBERING/16.png";
+// import image17 from "./Components/NUMBERING/17.png";
+// import image18 from "./Components/NUMBERING/18.png";
+// import image19 from "./Components/NUMBERING/19.png";
+// import image20 from "./Components/NUMBERING/20.png";
+// import image21 from "./Components/NUMBERING/21.png";
+// import image22 from "./Components/NUMBERING/22.png";
+// import image23 from "./Components/NUMBERING/23.png";
+// import image24 from "./Components/NUMBERING/24.png";
+
+// function Signup() {
+//   const [selectedCard, setSelectedCard] = useState(null);
+
+//   const handleCardClick = (cardNumber) => {
+//     setSelectedCard(cardNumber);
+//   };
+
+//   const cardImages = [
+//     image1, image2, image3, image4, image5, image6, image7, image8, image9,
+//     image10, image11, image12, image13, image14, image15, image16, image17,
+//     image18, image19, image20, image21, image22, image23, image24
+//   ];
+
+//   return (
+//     <div className="App">
+//       <div className="card-grid">
+//         {cardImages.map((imgSrc, index) => (
+//           <div className="col" key={index}>
+//             {selectedCard === index + 1 ? (
+//               <Card imgSrc={imgSrc} imgAlt={`PC ${index + 1}`} buttonText="Selected" />
+//             ) : (
+//               <Link to="/landing">
+//                 <Card
+//                   imgSrc={imgSrc}
+//                   imgAlt={`PC ${index + 1}`}
+//                   buttonText="LOGIN"
+//                   onClick={() => handleCardClick(index + 1)}
+//                 />
+//               </Link>
+//             )}
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Signup;
